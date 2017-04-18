@@ -14,8 +14,8 @@ namespace memprotection {
 		{
 			if (ExceptionInfo->ExceptionRecord->ExceptionCode == STATUS_GUARD_PAGE_VIOLATION)
 			{
-				uintptr_t uptTagaddr = static_cast<uintptr_t>(ExceptionInfo->ExceptionRecord->ExceptionInformation[1]);  //is this address in map?
-				uintptr_t uptSrcaddr = reinterpret_cast<uintptr_t>(ExceptionInfo->ExceptionRecord->ExceptionAddress);      //who make this exception?
+				uintptr_t uptTagaddr = static_cast<uintptr_t>(ExceptionInfo->ExceptionRecord->ExceptionInformation[1]); 
+				uintptr_t uptSrcaddr = reinterpret_cast<uintptr_t>(ExceptionInfo->ExceptionRecord->ExceptionAddress);  
 				uintptr_t tagbp	= NULL;
 				std::string SrcModuleName;
 				
