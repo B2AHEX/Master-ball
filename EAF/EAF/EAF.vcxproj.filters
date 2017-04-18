@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Udis86">
+      <UniqueIdentifier>{5ac9d374-86dc-414c-8eae-31d7a6840628}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="eaf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Guard.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ExceptionHandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Udis86\udis86.h">
+      <Filter>Udis86</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Udis86\libudis86\decode.h">
+      <Filter>Udis86</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Udis86\libudis86\extern.h">
+      <Filter>Udis86</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Udis86\libudis86\itab.h">
+      <Filter>Udis86</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Udis86\libudis86\syn.h">
+      <Filter>Udis86</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Udis86\libudis86\types.h">
+      <Filter>Udis86</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Udis86\libudis86\udint.h">
+      <Filter>Udis86</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EAF.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Guard.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionHandler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Udis86\libudis86\decode.c">
+      <Filter>Udis86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Udis86\libudis86\itab.c">
+      <Filter>Udis86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Udis86\libudis86\syn.c">
+      <Filter>Udis86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Udis86\libudis86\syn-att.c">
+      <Filter>Udis86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Udis86\libudis86\syn-intel.c">
+      <Filter>Udis86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Udis86\libudis86\udis86.c">
+      <Filter>Udis86</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\Udis86\libudis86.lib">
+      <Filter>Udis86</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
